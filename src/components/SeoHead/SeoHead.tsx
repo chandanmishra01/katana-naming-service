@@ -40,7 +40,7 @@ function SeoHead({
         name="description"
         content={
           description ||
-          "Omnichain web3 domains natively on Katana Network for interoperability."
+          "Web3 domains natively built on Katana Network with seamless interoperability."
         }
       />
 
@@ -55,12 +55,12 @@ function SeoHead({
         property="og:description"
         content={
           description ||
-          "Omnichain web3 domains natively on Katana Network for interoperability."
+          "Web3 domains natively built on Katana Network with seamless interoperability."
         }
       />
       <meta
         property="og:image"
-        // content={ogImage || "http://getheminames.me/meta/summary_large_image.jpeg"}
+        content={ogImage || "https://katana-naming-service.vercel.app/meta/katana.jpeg"}
       />
 
       {/* <!-- Twitter --> */}
@@ -77,12 +77,12 @@ function SeoHead({
         property="twitter:description"
         content={
           description ||
-          "Omnichain web3 domains natively on Katana Network for interoperability."
+          "Web3 domains natively built on Katana Network with seamless interoperability."
         }
       />
       <meta
         property="twitter:image"
-        content={ogImage || "#"}
+        content={ogImage || "https://katana-naming-service.vercel.app/meta/katana.jpeg"}
       />
       <title>{title || "KatanaDomains | Naming service on Katana Network"}</title>
       {/* END : DYNAMIC SEO HEAD  */}
