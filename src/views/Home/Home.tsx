@@ -31,11 +31,11 @@ function Home({}: Props) {
               <div className="mt-10 space-y-8">
                 <SearchDomainInput />
                 <div className="flex flex-col items-start justify-start gap-4 text-sm uppercase tracking-[0.32em] text-white/60 md:flex-row md:items-center">
-                  <a
+                  {/* <a
                     href="https://snaps.metamask.io/snap/npm/getheminames-resolver/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 rounded-full border border-[#ffe600]/40 bg-gradient-to-r from-[#ffe600] via-[#ffef87] to-[#49daff] px-6 py-3 text-[0.65rem] font-bold tracking-[0.3em] text-[#041029] shadow-[0_0_40px_rgba(255,230,0,0.35)] transition hover:shadow-[0_0_55px_rgba(76,222,255,0.45)]"
+                    className="inline-flex items-center gap-3 rounded-full border border-[#ffe600]/40 bg-gradient-to-r from-[#ffe600] via-[#ffef87] to-[#49daff] px-6 py-3 text-[0.65rem] font-bold tracking-[0.3em] text-[#041029] shadow-[0_0_40px_rgba(255,230,0,0.35)] transition hover:shadow-[0_0_55px_rgba(76,222,255,0.45)] cursor-not-allowed pointer-events-none"
                   >
                     <img
                       src="images/logos/MetaMask-icon-fox.svg"
@@ -45,7 +45,7 @@ function Home({}: Props) {
                       className="rounded-full"
                     />
                     Install Snap
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </Hero>

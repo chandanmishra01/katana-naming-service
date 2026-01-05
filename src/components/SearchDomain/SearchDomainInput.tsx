@@ -64,11 +64,11 @@ function SearchDomainInput({ subActionOnSelect }: Props) {
     <div className="w-full dropdown dropdown-bottom">
       <div className="flex items-center justify-between gap-3">
         <div className="flex w-full items-center gap-3 rounded-full border border-white/15 bg-white/10 px-2 py-2 shadow-[0_0_30px_rgba(4,12,50,0.45)] backdrop-blur">
-          <span className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#ffe600] via-[#ffbb33] to-[#33d6ff] text-[#041029] shadow-[0_0_20px_rgba(255,230,0,0.35)]">
+          <span className="flex h-12 w-12 items-center justify-center rounded-full">
             <svg
               fill="currentColor"
-              width="18"
-              height="18"
+              width="22"
+              height="22"
               version="1.1"
               id="lni_lni-search-alt"
               xmlns="http://www.w3.org/2000/svg"

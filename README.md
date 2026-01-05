@@ -1,2 +1,2 @@
-# HEMI APP
+# Katana Domains
 # Katana-naming-UI

@@ -78,6 +78,6 @@ export const UNSUPPORTED_BALANCES_FROM_CONTRACT_TLDS = ["eth"];
 
 export const YEAR_TO_SEC = 31536000;
 
-export const EXPLOERE_URL = "https://explorer.hemi.xyz";
+export const EXPLOERE_URL = "https://katanascan.com/";
 
-export const SUPPORTED_TLDS = ["zeta", "eth", "omni", "hemi"];
+export const SUPPORTED_TLDS = ["zeta", "eth", "omni", "hemi", "kat"];

@@ -41,7 +41,7 @@ export const rainbowWeb3AuthConnector = ({ chains }: { chains: any }) => {
       network: "cyan",
       uxMode: "popup",
       whiteLabel: {
-        name: "Hemi Names",
+        name: "Katana Domains",
         logoLight: "https://web3auth.io/images/w3a-L-Favicon-1.svg",
         logoDark: "https://web3auth.io/images/w3a-D-Favicon-1.svg",
         defaultLanguage: "en",

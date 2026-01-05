@@ -30,11 +30,11 @@ function DomainName({ _label }: Props) {
         !domainOwnerIsLoading && (
           <>
             <div className="flex flex-col items-center justify-center mx-auto h-full w-[70%] sm:w-[60%] md:w-[60%] lg:w-[40%] p-5 mt-5">
-              <div className="flex flex-col bg-[#ccf84a] w-[75%] sm:w-[65%] md:w-[55%] lg:w-[45%] h-[13rem] p-5 rounded-xl justify-between">
+              <div className="flex flex-col bg-[#ccf84a] w-[75%] sm:w-[65%] md:w-[55%] lg:w-[45%] h-[13rem] p-5 rounded-xl justify-center items-center">
                 <Image
-                  src="/pfp.png"
-                  width={50}
-                  height={50}
+                  src="/pfp1.png"
+                  width={120}
+                  height={120}
                   alt="Avatar"
                   className="rounded-full drop-shadow-lg"
                 />
@@ -83,7 +83,7 @@ function DomainName({ _label }: Props) {
               </div>
             </div>
             <Confetti run={true} />
-            <Toaster />
+            <Toaster/>
           </>
         )}
     </DashboardLayout>

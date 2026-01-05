@@ -28,7 +28,7 @@ return (
             Referral
           </Link>
           <a
-            href="https://getheminames.gitbook.io/getheminames"
+            href="#"
             target="_blank"
             referrerPolicy="no-referrer"
             className="transition hover:text-[#ffe600]"
@@ -38,7 +38,7 @@ return (
         </div>
         <div className="flex items-center gap-4">
           <a
-            href="https://twitter.com/getHemiNames"
+            href="https://x.com/katanadomains"
             target="_blank"
             referrerPolicy="no-referrer"
             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/10 transition hover:border-[#ffe600]/50 hover:shadow-[0_0_20px_rgba(74,217,255,0.45)]"

@@ -63,7 +63,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(404).json({ error: "Domain name not found" });
     }
 
-    const formattedDomainName = `${domainName.result}.hemi`;
+    const formattedDomainName = `${domainName.result}.kat`;
     const node = utils.namehash(formattedDomainName);
 
     // Fetch resolver and text records in a single multicall

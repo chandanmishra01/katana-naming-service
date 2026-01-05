@@ -73,8 +73,8 @@ const omniChainTestnet: Chain = {
 
 const hemiChain: Chain = {
   id: ChainId.HEMI,
-  name: "Hemi Network",
-  network: "Hemi Network",
+  name: "Katana Network",
+  network: "Katana Network",
   nativeCurrency: {
     decimals: 18,
     name: "Ethereum",
@@ -82,29 +82,29 @@ const hemiChain: Chain = {
   },
   rpcUrls: {
     public: {
-      http: ["https://rpc.hemi.network/rpc"],
+      http: ["https://katana.drpc.org"],
     },
     default: {
-      http: ["https://rpc.hemi.network/rpc"],
+      http: ["https://katana.drpc.org"],
     },
   },
   blockExplorers: {
     default: {
-      name: "Hemi Explorer",
-      url: "https://explorer.hemi.xyz/",
+      name: "Katana Explorer",
+      url: "https://explorer.katanarpc.com",
     },
   },
 
   contracts: {
     multicall3: {
       // TODO : Multicall3 Address -- https://etherscan.io/address/0xcA11bde05977b3631167028862bE2a173976CA11#code
-      address: "0x3FBA66680F0F468089233bB14E40725eCB66AF7A",
+      address: "0xc61C04E7EE35eAA876A48A36a966b270113700f2",
     },
     ensRegistry: {
-      address: "0x099fee7f2ef53eb7ccc0e465a32f3aefa8d703c5"
+      address: "0x7897b5F6F5eFAEa7E4acCa48ec28032ecd0D877f"
     },
     ensUniversalResolver: {
-      address: "0x4bb8573ddb5b8369c87bd6d7e34137d7ce674f2b",
+      address: "0xA16b9003CEeAfc063ab2F9ad50ceCc5C72420976",
       blockCreated: 1360113,
     },
   },

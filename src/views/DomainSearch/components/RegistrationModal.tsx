@@ -7,7 +7,7 @@ function RegistrationModal({ children, onCloseReset }: Props) {
   return (
     <div>
       <button
-        className="w-fit px-6 py-2.5 bg-white/10 mt-10 border border-gray-400 rounded-3xl"
+        className="w-fit px-6 py-3.5 bg-white/10 mt-10 border border-gray-400 rounded-3xl bg-gradient-to-r from-[#ffe600] via-[#ffef87] to-[#3ad9ff] text-base font-extrabold uppercase tracking-[0.35em] text-[#041029] transition-all duration-100 ease-out hover:shadow-[0_0_60px_rgba(74,217,255,0.45)]"
         onClick={() => {
           try {
             typeof window !== "undefined" &&

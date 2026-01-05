@@ -40,7 +40,7 @@ function SeoHead({
         name="description"
         content={
           description ||
-          "Omnichain web3 domains natively on Hemi Chain for interoperability."
+          "Omnichain web3 domains natively on Katana Network for interoperability."
         }
       />
 
@@ -49,7 +49,7 @@ function SeoHead({
       <meta property="og:url" content={ogSite || "#"} />
       <meta
         property="og:title"
-        content={title || "KatanaDomains | Naming service on Hemi Network"}
+        content={title || "KatanaDomains | Naming service on Katana Network"}
       />
       <meta
         property="og:description"
@@ -60,7 +60,7 @@ function SeoHead({
       />
       <meta
         property="og:image"
-        content={ogImage || "http://getheminames.me/meta/summary_large_image.jpeg"}
+        // content={ogImage || "http://getheminames.me/meta/summary_large_image.jpeg"}
       />
 
       {/* <!-- Twitter --> */}
@@ -68,23 +68,23 @@ function SeoHead({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content="@dotzetadomains" />
       <meta name="twitter:site" content="@dotzetadomains" />
-      <meta property="twitter:url" content={ogSite || "http://getheminames.me/"} />
+      <meta property="twitter:url" content={ogSite || "#"} />
       <meta
         property="twitter:title"
-        content={title || "KatanaDomains | Naming service on Hemi Network"}
+        content={title || "KatanaDomains | Naming service on Katana Network"}
       />
       <meta
         property="twitter:description"
         content={
           description ||
-          "Omnichain web3 domains natively on Hemi Network for interoperability."
+          "Omnichain web3 domains natively on Katana Network for interoperability."
         }
       />
       <meta
         property="twitter:image"
-        content={ogImage || "http://getheminames.me/meta/summary_large_image.jpeg"}
+        content={ogImage || "#"}
       />
-      <title>{title || "KatanaDomains | Naming service on Hemi Network"}</title>
+      <title>{title || "KatanaDomains | Naming service on Katana Network"}</title>
       {/* END : DYNAMIC SEO HEAD  */}
     </Head>
   );

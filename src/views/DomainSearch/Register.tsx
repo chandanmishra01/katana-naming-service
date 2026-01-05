@@ -184,7 +184,7 @@ function Register({ _label, refetchDomain }: Props) {
           className="rounded-full"
         />
         <p className="mt-5 text-lg font-medium md:text-2xl">
-          {formatWrapedText(_label, 4, 6)}
+          {_label}
         </p>
         {account ? (
           <p className="text-[12px] font-medium md:text-[15px] mt-2 text-gray-400">
@@ -196,7 +196,7 @@ function Register({ _label, refetchDomain }: Props) {
         )}
         <div className="w-full mt-5 text-left">
           <h3 className="mt-5 font-medium text-md md:text-lg">
-            Register {formatWrapedText(_label, 4, 6)}
+            Register : {_label}
           </h3>
         </div>
         <div className="flex flex-row w-[100%] md:w-[100%] p-4 bg-white/10 justify-between items-center rounded-xl mt-2 border border-gray-600">
@@ -356,7 +356,7 @@ function Register({ _label, refetchDomain }: Props) {
                   />
                 </Player>
                 <button
-                  className="px-4 py-2 mx-auto mt-5 text-sm border border-gray-400 w-fit bg-white/10 rounded-3xl"
+                  className="px-4 py-2 mx-auto mt-5 text-sm border border-gray-400 w-fit rounded-3xl bg-gradient-to-r from-[#ffe600] via-[#ffef87] to-[#3ad9ff] text-base font-extrabold uppercase tracking-[0.35em] text-[#041029] transition-all duration-100 ease-out hover:shadow-[0_0_60px_rgba(74,217,255,0.45)]"
                   onClick={() => {
                     router.push(`/domain/${_label}`);
                     setRegisterStatus({
@@ -416,7 +416,7 @@ function Register({ _label, refetchDomain }: Props) {
                     </div>
                   </div>
                   <button
-                    className="px-4 py-2 mx-auto mt-5 text-sm border border-gray-400 w-fit bg-white/10 rounded-3xl"
+                    className="px-4 py-2 mx-auto mt-5 text-sm border border-gray-400 w-fit rounded-3xl bg-gradient-to-r from-[#ffe600] via-[#ffef87] to-[#3ad9ff] text-base font-extrabold uppercase tracking-[0.35em] text-[#041029] transition-all duration-100 ease-out hover:shadow-[0_0_60px_rgba(74,217,255,0.45)]"
                     onClick={() => {
                       if (!account) {
                         toast.error("Please connect wallet", {

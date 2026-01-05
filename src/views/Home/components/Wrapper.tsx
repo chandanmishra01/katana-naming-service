@@ -10,7 +10,7 @@ type Feature = {
 const features: Feature[] = [
   {
     title: "Identity Arsenal",
-    description: "Forge sovereign handles, avatars, and metadata modules that travel anywhere Hemi reaches.",
+    description: "Forge sovereign handles, avatars, and metadata modules that travel anywhere Katana reaches.",
     accent: "from-[#ffe600] via-[#ffbb33] to-[#3ad9ff]",
     icon: (
       <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" strokeWidth="3">
@@ -112,7 +112,7 @@ const Wrapper = () => {
             Mint once, deploy everywhere. Unlock modules that evolve with your crew.
           </h2>
           <p className="max-w-md text-sm text-white/70">
-            Each Hemi Name comes battle-ready with modular utilities inspired by katana.network — precision-crafted for builders and their communities.
+            Each Katana Name comes battle-ready with modular utilities inspired by katana.network — precision-crafted for builders and their communities.
           </p>
         </div>
 

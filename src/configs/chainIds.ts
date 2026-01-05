@@ -40,5 +40,5 @@ export enum ChainId {
   BETANET_13 = 8082,
   ZETA_ATHENS = 7001,
   OMNI_TESTNET = 165,
-  HEMI = 43111
+  HEMI = 747474
 }
