@@ -20,7 +20,7 @@ function Hero({ children }: Props) {
       </div>
       <h1 className="mt-6 text-4xl font-black leading-[1.1] sm:text-5xl md:text-6xl lg:text-7xl">
         Forge your
-        <span className="mx-2 inline-flex bg-gradient-to-r from-[#ffe600] via-[#ffbc52] to-[#4ad7ff] bg-clip-text text-transparent">
+        <span className="inline-flex bg-gradient-to-r from-[#ffe600] via-[#ffbc52] to-[#4ad7ff] bg-clip-text text-transparent">
           Katana Persona
         </span>
         and cut through Web3 noise.
