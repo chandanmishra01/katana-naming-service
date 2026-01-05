@@ -60,7 +60,7 @@ function SeoHead({
       />
       <meta
         property="og:image"
-        content={ogImage || "https://katana-naming-service.vercel.app/meta/katana.jpeg"}
+        content={ogImage || "https://katana-naming-service.vercel.app/meta/mascot.png"}
       />
 
       {/* <!-- Twitter --> */}
@@ -82,7 +82,7 @@ function SeoHead({
       />
       <meta
         property="twitter:image"
-        content={ogImage || "https://katana-naming-service.vercel.app/meta/katana.jpeg"}
+        content={ogImage || "https://katana-naming-service.vercel.app/meta/mascot.png"}
       />
       <title>{title || "KatanaDomains | Naming service on Katana Network"}</title>
       {/* END : DYNAMIC SEO HEAD  */}
