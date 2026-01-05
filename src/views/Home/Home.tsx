@@ -5,7 +5,7 @@ import SearchDomainInput from "@/components/SearchDomain/SearchDomainInput";
 import Footer from "@/components/Footer/Footer";
 
 import Hero from "./components/Hero";
-import Wrapper from "./components/Wrapper";
+// import Wrapper from "./components/Wrapper";
 import ImagePlaceholder from "./components/ImagePlaceholder";
 
 type Props = {};

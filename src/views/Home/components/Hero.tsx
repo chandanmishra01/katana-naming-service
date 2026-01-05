@@ -4,11 +4,11 @@ type Props = {
   children?: React.ReactNode;
 };
 
-const heroStats = [
-  { value: "2,500+", label: "Identities Forged" },
-  { value: "12", label: "Cross-Chain Links" },
-  { value: "~21s", label: "Average Mint Time" },
-];
+// const heroStats = [
+//   { value: "2,500+", label: "Identities Forged" },
+//   { value: "12", label: "Cross-Chain Links" },
+//   { value: "~21s", label: "Average Mint Time" },
+// ];
 
 function Hero({ children }: Props) {
   return (
